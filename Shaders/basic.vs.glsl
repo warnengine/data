@@ -11,12 +11,7 @@ out vec3 o_normal;
 uniform mat4 projection;
 uniform mat4 view;
 uniform mat4 model;
-
-mat4 bias = 
-        (0.5, 0.0, 0.0, 0.0,
-	0.0, 0.5, 0.0, 0.0,
-	0.0, 0.0, 0.5, 0.0,
-	0.5, 0.5, 0.5, 1.0);
+uniform mat4 bias;
 uniform mat4 lightProjection;
 uniform mat4 lightView;
 
